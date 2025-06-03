@@ -1,0 +1,32 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: inline-block;
+}
+
+:root{
+    --main-black-color: #000;
+    --main-white-color: #fff;
+}
+
+body{
+    background-color: var(--main-black-color);
+    color: var(--main-white-color);
+}
+
