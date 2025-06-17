@@ -21,3 +21,8 @@
     gap: 15px;
     margin-bottom: 30px;
 }
+
+.copyright-text{
+    color: gray;
+    font-size: 16px;
+}
