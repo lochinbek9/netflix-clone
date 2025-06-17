@@ -41,6 +41,9 @@ function Navbar() {
         <div className="navbar-profile">
           <img src={profile_img } alt="profile" className="icons profile" />
           <img src={ caret_icon } alt="caret" className="icons" />
+          <div className="dropdown">
+              <p>Sign Out of Netflix</p>
+          </div>
         </div>
       </div>
     </nav>
